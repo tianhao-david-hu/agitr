@@ -6,7 +6,7 @@ void poseMessageReceived(const geometry_msgs::Twist& msg)
 {
   ROS_INFO_STREAM(std::setprecision(2)<<std::fixed<<"velocity=("<<msg.linear.x<<","<<msg.linear.y<<")"<<" rotation="<<msg.angular.z);
 }
-
+//Test Modified
 int main(int argc, char** argv)
 {
   ros::init(argc,argv,"subscribe_to_pose");
